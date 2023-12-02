@@ -1,12 +1,14 @@
 import 'dart:io';
-int stringData(String data){
+
+int stringData(String data) {
   return data.length;
 }
-main(){
+
+main() {
   String? data;
   print("Enter a string");
   int? stringLength;
-  data=stdin.readLineSync()!;
-  stringLength=stringData(data);
+  data = stdin.readLineSync()!;
+  stringLength = stringData(data);
   print('String length= $stringLength');
 }
