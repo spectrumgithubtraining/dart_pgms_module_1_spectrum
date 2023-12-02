@@ -1,6 +1,6 @@
-main(){
-  bool c=true;
-  bool d=false;
+main() {
+  bool c = true;
+  bool d = false;
   print(!c);
   print(!d);
 }

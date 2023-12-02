@@ -1,10 +1,10 @@
-main(){
-  int a=4;
+main() {
+  int a = 4;
   int res;
-  res=a;
+  res = a;
   print('res using=$res');
-  res+=a;
+  res += a;
   print('res using=$res');
-  res*=a;
+  res *= a;
   print('res using=$res');
 }

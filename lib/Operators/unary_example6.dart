@@ -1,5 +1,5 @@
-main(){
-  int i=10;
+main() {
+  int i = 10;
   i--;
   print(i);
   --i;

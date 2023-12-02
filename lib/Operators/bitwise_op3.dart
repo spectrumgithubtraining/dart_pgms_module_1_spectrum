@@ -11,6 +11,4 @@ void main() {
 
   result = (~b);
   print("(~b) => $result");
-
-
 }

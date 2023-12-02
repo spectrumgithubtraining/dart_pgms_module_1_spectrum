@@ -1,5 +1,5 @@
-main(){
-  var x=30;
+main() {
+  var x = 30;
   print(x++);
   var y = 25;
   print(++y);
