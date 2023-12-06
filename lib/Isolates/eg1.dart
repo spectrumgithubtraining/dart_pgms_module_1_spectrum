@@ -7,9 +7,10 @@ Future<void> sayHi(var msg) async {
 }
 
 void main() async {
-  sayHi("Hi vin");
-  sayHi("Hi ammu");
-  sayHi("Hi manu");
+  Isolate isolate1,isolate2,isolate3;
+  isolate1=await Isolate.spawn(sayHi,"steps");
+  isolate2=await Isolate.spawn(sayHi,"steps");
+  isolate3=await Isolate.spawn(sayHi,"steps");
 }
 
 // import 'dart:isolate';
